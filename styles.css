@@ -1,0 +1,173 @@
+@import URL('https://fonts.googleapis.com/css2? family=Roboto&display=swap');
+    /** {
+        padding: 0;
+        margin: 0;
+    }*/
+    body {
+        background-color: #f1f1f1;
+        
+        font-size: 16px;
+        font-weight: normal;
+        font-family: 'Roboto', sans-serif;
+
+        /*font: normal 16px 'Roboto', sans-serif;*/
+    }
+    a {
+        color: blue;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    a:active {
+        color: green;
+    }
+    .avatar {
+        width: 150px;
+        background-color: rgb(191, 214, 145);
+        border-radius: 30px;
+        box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    }
+    .info p {
+        color: #86898f;
+        margin: 0%;
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: underline;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+    }
+
+    @media (max-width: 700px) {
+        .info {
+            text-align: center;
+            display: block;
+        }
+    }
+    
+    /*Box Model*/
+    .container {
+        width: 800px;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .bg-yellow {
+        background: #fff9dc;
+    }
+    .bg-green {
+        background: #e5ffe7;
+    }
+    .bg-red {
+        background: #ffe5e5;
+    }
+    .card {
+        padding: 15px 20px;
+        
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+    .info {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .info-text {
+        margin-left: 40px;
+    }
+    .info-text h1 {
+        color: rgb(70, 190, 59);
+    }
+    .animals {
+        
+    }
+    .card h2 {
+        margin-bottom: 20px;
+        color: red;
+    }
+    .ul {
+        padding: 0 20px;
+    }
+    .ul li {
+        color: saddlebrown;
+        margin-bottom: 10px;
+        border-bottom: 1px solid red;
+    }
+    table {
+        width: 100%;
+    }
+    table td {
+        padding-bottom: 15px;
+    }
+    table td:nth-child(2), table td:nth-child(3) {
+        color: salmon;
+    }
+    .chicken li {
+        list-style: none;
+        color: rgb(53, 48, 48);
+        padding: 0;
+        
+    }
+    .contact h2 {
+        text-align: center;
+        color: sienna;
+    }
+    .form-group label {
+        display: block;
+        font-size: 14px;
+        color: slategrey;
+    }
+    .form-group input, .form-group textarea {
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid #ccc;
+        color: #000;
+        padding: 15px 0 10px;
+        font-family: inherit;
+    }
+    .row {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .row > .form-group {
+        width: 50%;
+        margin-right: 20px;
+    }
+    .btn {
+        background: lightblue;
+        padding: 15px 20px;
+        border: none;
+        font-family: fantasy;
+        cursor: pointer;
+    }
+    .btn:hover {
+        opacity: 0.9;
+    }
+/*table tr:nth-child(odd) {
+    background-color: rgb(58, 201, 45);
+}*/
+/*
+.animals {
+    background: rgb(191, 172, 209);
+    padding: 15px 5px;
+    margin: 20px 10px;
+
+    border: 5px solid red;
+    border-bottom-style: dotted;
+    border-top-width: 15px;
+    border-right-color: royalblue;
+}
+
+
+.box-model > div {
+    float: left;
+    background: #000;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: b;
+}
+*/
+
+    
